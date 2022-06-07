@@ -6,7 +6,8 @@ export default (reducers, middlewares) => {
         console.tron.createEnhancer(),
         applyMiddleware(...middlewares)
     )
-    : applyMiddleware(...middlewares);
+    : applyMiddleware(...middlewares)
 
-    return createStore(reducers, enhancer);
+return createStore(reducers, enhancer);
+
 };
