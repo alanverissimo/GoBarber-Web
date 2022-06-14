@@ -38,7 +38,7 @@ Uma vez que se trata de um aplicação completa, é necessário que a parcela re
 
 ### `Demonstração`
 
-![GIF](https://imgur.com/v1PNhmw.gif)
+![GIF](https://imgur.com/a/pLC3OvC.gif)
 
 ------------------------------------------------------------------
 
