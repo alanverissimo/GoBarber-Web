@@ -1,12 +1,12 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { Form, Input } from "@rocketseat/unform";
-import * as Yup from "yup";
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { Form, Input } from '@rocketseat/unform';
+import * as Yup from 'yup';
 
-import { signInRequest } from "../../store/modules/auth/actions";
+import { signInRequest } from '../../store/modules/auth/actions';
 
-import logo from "~/assets/logo.svg";
+import logo from '~/assets/logo.svg';
 
 const schema = Yup.object().shape({
   email: Yup.string().email("O e-mail digitado é inválido").required("O e-mail é obrigatório"),
@@ -29,7 +29,7 @@ export default function SignIn() {
         <Input name="email" type="email" placeholder="Seu e-mail" />
         <Input name="password" type="password" placeholder="Sua senha" />
 
-        <button type="submit">{loading ? 'Carregando...' : 'Acessar'}</button>
+        <button type="submit">{loading ? "Carregando..." : "Acessar"}</button>
         <Link to="/register">Criar conta gratuita</Link>
       </Form>
     </>
