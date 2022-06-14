@@ -26,7 +26,7 @@ O presente repositório trata apenas da aplicação web que é utilizada pelos p
 
 ### `Como iniciar?`
 
-Defina em seu terminal o diretório "*Project*" e digite "*yarn start*".
+Defina em seu terminal o diretório "gobarberweb" e digite "*yarn start*".
 
 ### `Como usar?`
 
