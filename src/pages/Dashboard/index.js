@@ -1,11 +1,11 @@
-import React, { useState, useMemo, useEffect } from "react";
-import { format, subDays, addDays, setHours, setMinutes, setSeconds, isBefore, isEqual, parseISO } from "date-fns";
-import { utcToZonedTime } from "date-fns-tz";
-import pt from "date-fns/locale/pt";
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
-import api from "../../services/api";
+import React, { useState, useMemo, useEffect } from 'react';
+import { format, subDays, addDays, setHours, setMinutes, setSeconds, isBefore, isEqual, parseISO } from 'date-fns';
+import { utcToZonedTime } from 'date-fns-tz';
+import pt from 'date-fns/locale/pt';
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import api from '../../services/api';
 
-import { Container, Time } from "./styles";
+import { Container, Time } from './styles';
 
 const range = [
   8,
@@ -20,6 +20,8 @@ const range = [
   17,
   18,
   19,
+  20,
+  21,
 ];
 
 export default function Dashboard() {
